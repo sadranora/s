@@ -1156,8 +1156,8 @@ html {
   fill: #334155;
 }
 
-.fill-red-600 {
-  fill: #dc2626;
+.fill-slate-50\/30 {
+  fill: rgb(248 250 252 / 0.3);
 }
 
 .p-10 {
@@ -1315,6 +1315,10 @@ html {
 
 .hover\:fill-slate-500:hover {
   fill: #64748b;
+}
+
+.hover\:fill-white:hover {
+  fill: #fff;
 }
 
 @media (min-width: 640px) {
