@@ -63,9 +63,16 @@
         background-image: url("../assets/images/bg-dark.png");
     }
 
-    #achivements-section>div>div {
+    .bg-dark-div {
         clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
         background-image: linear-gradient(#fbfafc00, #f8fafc23);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bg-light-div {
+        clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+        background-image: linear-gradient(hsla(267, 16%, 11%, 0), hsla(211, 59%, 8%, 0.137));
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
