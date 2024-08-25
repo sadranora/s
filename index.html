@@ -12,6 +12,61 @@
 </head>
 
 <body class="overflow-x-hidden">
+    <!-- <div id="test" class="w-15 h-15" style="margin-left: 200px;">
+        <h1>hello</h1>
+    </div> -->
+    <header id="header" class="fixed z-30 w-screen bg-light-fixed-01 dark:bg-dark-fixed-01 border-b border-slate-50/20">
+        <div
+            class="items-center justify-between mx-auto max-w-[1920px] h-[84px] md:h-25 px-4 lg:px-12 bg-slate-50/10 border-b border-slate-50/20 cursor-pointer">
+            <div id="navbar-container-1" class="items-center justify-center">
+                <!--  main navbar icon container  -->
+                <div class="flex flex-row gap-6 items-center justify-center">
+                    <svg id="toggle-dark-01"
+                        class="mr-5 mt-5 static self-end w-12 h-12 bottom-12 cursor-pointer fill-gray-900/50 dark:fill-orange-500/50 transition-all duration-300 hover:fill-gray-900 dark:hover:fill-orange-500">
+                        <use xlink:href="#routine"></use>
+                    </svg>
+                    <div class="flex flex-row">
+                        <a href="./pages/article.html">
+                            <svg id="news-1"
+                                class="w-12 h-12 cursor-pointer fill-slate-50/30 hover:fill-white transition-all duration-300 mt-5">
+                                <use xlink:href="#news"></use>
+                            </svg>
+                        </a>
+                        <a href="#contect-section">
+                            <svg id="forum-1"
+                                class="w-12 h-12 cursor-pointer fill-slate-50/30 hover:fill-white transition-all duration-300 mt-5">
+                                <use xlink:href="#forum"></use>
+                            </svg>
+                        </a>
+                        <a href="#achivements-section">
+                            <svg id="trophy-1"
+                                class="w-12 h-12 cursor-pointer fill-slate-50/30 hover:fill-white transition-all duration-300 mt-5">
+                                <use xlink:href="#trophy"></use>
+                            </svg>
+                        </a>
+                        <a href="#skills-section">
+                            <svg id="star-1"
+                                class="w-12 h-12 cursor-pointer fill-slate-50/30 hover:fill-white transition-all duration-300 mt-5">
+                                <use xlink:href="#star"></use>
+                            </svg>
+                        </a>
+                        <a href="#person-section">
+                            <svg id="person-1"
+                                class="w-12 h-12 cursor-pointer fill-slate-50/30 hover:fill-white transition-all duration-300 mt-5">
+                                <use xlink:href="#person"></use>
+                            </svg>
+                        </a>
+                        <a href="#home-section">
+                            <svg
+                                class="w-12 h-12 cursor-pointer fill-slate-50/30 hover:fill-white transition-all duration-300 mt-5">
+                                <use xlink:href="#home"></use>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
     <!--  svg sprite  -->
     <svg class="hidden">
         <defs>
@@ -61,7 +116,8 @@
         </defs>
     </svg>
     <!--  navbar  -->
-    <div id="navbar" class="w-48 h-screen fixed flex z-30 transition-all duration-500 -ml-24">
+    <div id="navbar"
+        class="w-48 h-screen fixed flex z-30 transition-all duration-500 -ml-24 justify-center items-center">
         <!-- Menu Word container   -->
         <div class="h-screen w-24 order-1 flex justify-center items-center">
             <h2 id="menu-button"
@@ -114,13 +170,14 @@
             </svg>
         </div>
     </div>
-    <div id="navbar-1" class="w-48 h-screen fixed flex z-30 transition-all duration-500"
+    <div id="navbar-1" class="w-48 h-screen fixed flex z-30 transition-all duration-500 justify-center items-center"
         style="margin-left: calc(100vw - 150px);">
         <div id="navbar-container-1" class="hidden md:flex justify-center items-center h-screen w-24 cursor-pointer">
-            <div class=" h-9 w-9 bg-teal-300/30 hover:bg-teal-300 rounded-full transition-all duration-300" style="margin-top: 822px; margin-right: 10px;">
+            <div class=" h-9 w-9 bg-teal-300/30 hover:bg-teal-300 rounded-full transition-all duration-700"
+                style="margin-top: 822px; margin-right: 10px;">
                 <a href="#home-section">
                     <svg
-                        class="absolute self-end w-9 h-9 bottom-15 cursor-pointer fill-gray-900/50 dark:fill-slate-50/30 transition-all duration-300 hover:fill-gray-900 dark:hover:fill-slate-50">
+                        class="absolute self-end w-9 h-9 bottom-15 cursor-pointer fill-gray-900/50 dark:fill-slate-50/30 transition-all duration-700 hover:fill-gray-900 dark:hover:fill-slate-50">
                         <use xlink:href="#up"></use>
                     </svg>
                 </a>
@@ -137,7 +194,7 @@
                 <h2 class="font-GilroyLight text-4xl w-full text-center">I am a Wab Developer.</h2>
             </div>
         </div>
-        <div id="person-section" class="min-h-screen w-full flex justify-center items-center">
+        <div id="person-section" class="min-h-screen w-full flex justify-center items-center mt-32">
             <div class="w-3/4">
                 <h3 class="font-GilroyExtraBold text-7xl w-48 float-left clrar-both mr-4 text-gray-900 dark:text-white">
                     Who am I?</h3>
@@ -265,6 +322,11 @@
     const main = document.querySelector('html');
     toggleButton.addEventListener('click', () => {
         main.classList.toggle('dark');
+    });
+    const toggleButton01 = document.getElementById('toggle-dark-01');
+    const main01 = document.querySelector('html');
+    toggleButton01.addEventListener('click', () => {
+        main01.classList.toggle('dark');
     });
     const menuButton = document.getElementById('menu-button');
     const navbar = document.getElementById('navbar');

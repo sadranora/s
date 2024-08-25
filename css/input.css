@@ -63,6 +63,23 @@
         background-image: url("../assets/images/bg-dark.png");
     }
 
+    .bg-light-fixed {
+        background-image: url("../assets/images/bg-light-fixed.png");
+    }
+
+    .bg-dark-fixed {
+        background-image: url("../assets/images/bg-dark-fixed.png");
+    }
+
+    .bg-light-fixed-01 {
+        background-image: url("../assets/images/bg-light-fixed-01.png");
+    }
+
+    .bg-dark-fixed-01 {
+        background-image: url("../assets/images/bg-dark-fixed-01.png");
+    }
+
+
     .bg-dark-div {
         clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
         background-image: linear-gradient(#fbfafc00, #f8fafc23);
@@ -70,11 +87,23 @@
         background-size: cover;
         background-repeat: no-repeat;
     }
+
     .bg-light-div {
         clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
         background-image: linear-gradient(hsla(267, 16%, 11%, 0), hsla(211, 59%, 8%, 0.137));
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+}
+
+@media (min-width: 770px) {
+    #header {
+        display: none;
+    }
+}
+@media (max-width: 770px) {
+    #navbar {
+        display: none;
     }
 }
