@@ -113,3 +113,8 @@
         gap: 60px;
     }
 }
+@media (max-width: 770px) {
+    #navbar-1 {
+        display: none;
+    }
+}
