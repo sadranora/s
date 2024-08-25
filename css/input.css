@@ -107,13 +107,17 @@
         display: none;
     }
 }
-
 @media (max-width: 770px) {
     #contect-section {
         gap: 40px;
     }
 }
 @media (max-width: 770px) {
+    #navbar-1 {
+        display: none;
+    }
+}
+@media (max-width: 645px) {
     #navbar-1 {
         display: none;
     }
