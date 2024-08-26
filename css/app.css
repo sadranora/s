@@ -794,6 +794,10 @@ html {
   margin-top: 2rem;
 }
 
+.mt-\[84px\] {
+  margin-top: 84px;
+}
+
 .flex {
   display: flex;
 }
@@ -1245,6 +1249,10 @@ html {
   padding-bottom: 0.75rem;
 }
 
+.pt-\[98px\] {
+  padding-top: 98px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1375,6 +1383,10 @@ html {
 
 @media (min-width: 770px) {
   #header {
+    display: none;
+  }
+
+  #navbar-2 {
     display: none;
   }
 }

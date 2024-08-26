@@ -102,7 +102,11 @@
         display: none;
     }
 }
-
+@media (min-width: 770px) {
+    #navbar-2 {
+        display: none;
+    }
+}
 @media (max-width: 770px) {
     #navbar {
         display: none;
