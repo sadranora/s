@@ -794,6 +794,10 @@ html {
   margin-top: 2rem;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .flex {
   display: flex;
 }
@@ -917,6 +921,10 @@ html {
 
 .max-w-\[1920px\] {
   max-width: 1920px;
+}
+
+.flex-grow-0 {
+  flex-grow: 0;
 }
 
 .-rotate-90 {

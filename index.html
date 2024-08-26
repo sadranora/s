@@ -15,9 +15,9 @@
     <!-- <div id="test" class="w-15 h-15" style="margin-left: 200px;">
         <h1>hello</h1>
     </div> -->
-    <header id="header" class="fixed z-30 w-screen bg-light-fixed-01 dark:bg-dark-fixed-01 border-b border-slate-50/20">
+    <header id="header" class="fixed z-30 w-screen border-b h-screen border-slate-50/20">
         <div
-            class="items-center justify-between mx-auto max-w-[1920px] h-[84px] md:h-25 px-4 lg:px-12 bg-slate-50/10 border-b border-slate-50/20 cursor-pointer">
+            class="items-center justify-between mx-auto max-w-[1920px] h-[84px] md:h-25 px-4 bg-light-fixed-01 dark:bg-dark-fixed-01 lg:px-12 bg-slate-50/10 border-b border-slate-50/20 cursor-pointer">
             <div id="navbar-container-1" class="items-center justify-center">
                 <!--  main navbar icon container  -->
                 <div class="flex flex-row gap-6 items-center justify-center">
@@ -66,8 +66,16 @@
                 </div>
             </div>
         </div>
+        <div>
+            <a href="#home-section">
+                <svg
+                    class="ml-5 absolute self-end bottom-12 cursor-pointer w-9 h-9 fill-gray-900/50 dark:fill-slate-50/30 transition-all duration-700 hover:fill-gray-900 dark:hover:fill-slate-50 bg-teal-300/30 hover:bg-teal-300 rounded-full">
+                    <use xlink:href="#up"></use>
+                </svg>
+            </a>
+        </div>
     </header>
-    <div id="navbar-2" class="w-48 h-screen fixed flex z-30 transition-all duration-500 justify-center items-center"
+    <!-- <div id="navbar-2" class="w-48 h-screen fixed flex z-30 transition-all duration-500 justify-center items-center"
         style="margin-left: calc(100vw - 150px);height: 480px;margin-top: 84px;margin-right: -20; margin-bottom: 400px;">
         <div id=" navbar-container-2" class="md:flex justify-center items-center h-screen w-24 cursor-pointer"
             style="height: 880px;">
@@ -81,7 +89,7 @@
                 </a>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--  svg sprite  -->
     <svg class="hidden">
         <defs>
