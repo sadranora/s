@@ -859,6 +859,10 @@ html {
   height: 100vh;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -921,6 +925,10 @@ html {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-10 {
+  width: 2.5rem;
 }
 
 .max-w-\[1920px\] {
@@ -1251,10 +1259,6 @@ html {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.pt-\[98px\] {
-  padding-top: 98px;
 }
 
 .text-center {
